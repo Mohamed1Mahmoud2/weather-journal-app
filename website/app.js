@@ -16,7 +16,7 @@ genertBtn.addEventListener('click', callSubmt);
 function callSubmt() {
     getWeathrCelTm(baseURL, zpEle.value, apiKey)
         .then(data => sendDataServr({
-            data: today,
+            date: today,
             temp: data.main.temp,
             feeling: feelELe.value
         }))
