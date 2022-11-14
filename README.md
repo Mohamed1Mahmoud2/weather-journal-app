@@ -6,7 +6,7 @@ This is my second project with Udacity,
 and I hope to be successful in using the tools that 
 I learned to implement what is required of me in this project.
 
-###I used in this project
+### I used in this project
 
   - NodejS and Express . 
   - DOM using Vanilla JavaScript.
