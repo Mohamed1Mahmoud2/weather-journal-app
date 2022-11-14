@@ -11,7 +11,7 @@ I learned to implement what is required of me in this project.
   - NodejS and Express . 
   - DOM using Vanilla JavaScript.
   - JavaScript.
-  - HTML , Css. 
+  - HTML , CSS. 
 ### I used some methods , and some docs: 
   - Get and Post requests. 
   -Fetch API , use MDN docs (https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API),(https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).
