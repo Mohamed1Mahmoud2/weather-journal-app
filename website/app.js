@@ -8,7 +8,7 @@ const genertBtn = document.getElementById("generate");
 
 // Create a new date instance dynamically with JS
 let date = new Date();
-let today = date.getMonth() + 1 + '.' + date.getDate() + '.' + date.getFullYear();
+let today = `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`;
 
 // data sub
 genertBtn.addEventListener('click', callSubmt);
@@ -61,7 +61,7 @@ async function uptatingUI() {
     const request = await fetch('/all');
     try {
         const response = await request.json();
-        document.getElementById("date").innerHTML = response.dete;
+        document.getElementById("date").innerHTML = response.date;
         document.getElementById("temp").innerHTML = response.temp;
         document.getElementById("content").innerHTML = response.feeling;
     } catch (error) {
